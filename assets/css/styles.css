@@ -10,7 +10,7 @@
   --first-color: hsl(30, 100%, 58%);
   --black-color: hsl(220, 12%, 8%);
   --white-color: hsl(48, 90%, 90%);
-  --text-color: hsl(220, 8%, 28%);
+  --text-color: hsla(0, 2%, 34%, 0.678);
   --body-color: hsl(0, 0%, 100%);
   --shadow-img: drop-shadow(0 16px 24px hsla(0, 0%, 0%, .2));
 
@@ -102,7 +102,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 100%;
+  /* max-width: 100%; */
   margin-inline: 1.5rem;
 }
 
@@ -155,15 +155,43 @@ img {
     align-items: center;
     column-gap: .25rem;
 }
+
 .nav .nav__logo img{
     width: 100px;
     background-color: white;
+}
+
+.nav .nav__logo span{
+ color: var(--black-color);
+ font-weight: bold;
+ font-size: 35px;   
+}
+
+.nav .nav__menu{
+   width: 800px;
 }
 
 .nav .nav__menu .nav__list{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav .nav__menu .nav__list .nav__link{
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.nav .nav__menu .nav__list .active{
+    color: var(--black-color);
+    font-weight: bolder;
+}
+
+.header .contact__button .contact__link{
+    background-color: var(--black-color);
+    color: var(--body-color);
+    border-radius: 30px;
+    padding: 20px;
 }
 /* Navigation for mobile devices */
 
