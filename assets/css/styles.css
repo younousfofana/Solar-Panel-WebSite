@@ -137,15 +137,12 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
-.header{
+.section__header{
   width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
+  height: 100vh;
 }
  
 .nav{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -187,62 +184,10 @@ img {
     font-weight: bolder;
 }
 
-.header .contact__button .contact__link{
+.contact__button .contact__link{
     background-color: var(--black-color);
     color: var(--body-color);
     border-radius: 30px;
     padding: 20px;
 }
-/* Navigation for mobile devices */
 
-
-/* Show menu */
-
-
-/* Add shadow header */
-
-
-/* Active link */
-
-
-/*=============== HOME ===============*/
-
-
-/*=============== BUTTON ===============*/
-
-
-/*=============== ABOUT ===============*/
-
-
-/*=============== ORDER ===============*/
-
-
-/*=============== COMBO ===============*/
-
-
-/*=============== CONTACT ===============*/
-
-
-/*=============== FOOTER ===============*/
-
-
-/*=============== SCROLL BAR ===============*/
-
-
-/*=============== SCROLL UP ===============*/
-
-
-/* Show Scroll Up */
-
-
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
-
-
-/* For medium devices */
-
-
-/* For large devices */
-
-
-/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
