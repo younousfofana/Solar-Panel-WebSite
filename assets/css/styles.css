@@ -165,7 +165,7 @@ img {
 }
 
 .nav .nav__menu{
-   width: 800px;
+   width: 700px;
 }
 
 .nav .nav__menu .nav__list{
@@ -191,3 +191,9 @@ img {
     padding: 20px;
 }
 
+.presentation{
+    margin: 0 20px;
+    border-radius: 40px;
+    overflow: hidden;
+    height: 88%;
+}
