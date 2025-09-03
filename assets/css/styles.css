@@ -197,3 +197,19 @@ img {
     overflow: hidden;
     height: 88%;
 }
+
+.presentation .slogan{
+    /* width: 100%; */
+    height: 100%;
+    position: absolute;
+}
+
+.presentation .slogan h1{
+    color: var(--body-color);
+    font-size: 70px;
+    text-align: left;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    line-height: 80px;
+}
