@@ -104,7 +104,7 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   /* max-width: 100%; */
-  margin-inline: 1.5rem;
+  margin-inline: 55px;
 }
 
 .grid {
@@ -147,6 +147,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 10%;
 }
 .nav .nav__logo{
     display: inline-flex;
@@ -155,14 +156,14 @@ img {
 }
 
 .nav .nav__logo img{
-    width: 100px;
+    width: 60px;
     background-color: white;
 }
 
 .nav .nav__logo span{
  color: var(--black-color);
  font-weight: bold;
- font-size: 35px;   
+ font-size: 40px;   
 }
 
 .nav .nav__menu{
@@ -213,6 +214,18 @@ img {
     top: 55px;
     left: 50px;
     line-height: 80px;
+    width: 770px;
+}
+
+.presentation .slogan p{
+    color: var(--text-color);
+    font-size: 85px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    line-height: 80px;
 }
 
 .presentation .explore{
@@ -220,7 +233,7 @@ img {
     top: 790px;
     left: 80px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     width: 92%;
 }
@@ -260,4 +273,96 @@ img {
 .presentation .explore .explore__1 .explore__button .explore_span_2{
     font-weight: bolder;
     font-size: 20px;
+}
+
+.presentation .explore .explore__2{
+    backdrop-filter: blur(10px);
+    height: 200px;  
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+    padding: 10px;
+    column-gap: 22px;
+    /* justify-content: space-around; */
+}
+
+.presentation .explore .explore__2 .explore__image{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.presentation .explore .explore__2 .explore__image img{
+    width: 200px;
+    height: 180px;
+    /* height: max-content; */
+    object-fit: cover;
+}
+
+.presentation .explore .explore__2 .explore__suncryst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 180px;
+}
+
+.presentation .explore .explore__2 .explore__suncryst h3{
+    color: var(--body-color);
+    /* margin-bottom: 20px; */
+}
+
+.presentation .explore .explore__2 .explore__suncryst p{
+    color: var(--grey-color);
+    font-size: 15px;
+    width: 350px;
+}
+
+.about__section{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.about__section .about_us{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.about__section .about_us h4{
+    font-size: 22px;
+}
+
+.about__section .about_us .about__us_images p{
+  font-size: 25px;
+  color: var(--text-color);
+}
+
+.about__section .about_description{
+  width: 750px;
+}
+
+.about__section .about_description h1{
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+.about__section .about_description h1 span{
+  color: var(--text-color);
+}
+
+.about__section .about_description p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 70px;
+  width: 650px;
+}
+
+.about__section .about_description a{
+  background-color: var(--black-color);
+  border-radius: 40px;
+  padding: 20px;
+  color: var(--body-color);
 }
