@@ -401,7 +401,37 @@ img {
 
 .popular__product{
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 70px;
 }
 
+.popular__product .popular_product_image{
+  border-radius: 20px;
+  overflow: hidden;
+}
+.popular__product .popular_product_image img{
+  width: 750px;
+  height: 800px;
+  object-fit: cover;
+}
+
+.popular_product{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popular_product h4{
+  font-size: 22px;
+}
+
+.popular_product h1{
+  font-size: 50px;
+  width: 900px;
+}
+
+.popular_product h1 span{
+  color: var(--text-color);
+}
