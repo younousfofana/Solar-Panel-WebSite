@@ -492,7 +492,7 @@ img {
   border-radius: 40px;
   overflow: hidden;
   width: 100%;
-  height: 800px;
+  height: 900px;
 }
 
 .popular__product .carousel img{
@@ -500,4 +500,50 @@ img {
   object-position: center;
   width: 100%;          
   height: 100%;  
+}
+
+.carousel {
+  position : relative;
+}
+
+.carousel h4{
+  position:absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 22px;
+  color: var(--body-color);
+}
+
+.carousel .carousel_description{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  width: 100%;
+}
+
+.carousel .carousel_description h1{
+  font-size: 60px;
+  color: var(--body-color);
+}
+
+.carousel .carousel_description .carousel_slogan{
+  width: 900px;
+}
+
+.carousel .carousel_description .carousel_slogan h2{
+  font-size: 50px;
+  color: var(--body-color);
+}
+
+.carousel .carousel_description .carousel_slogan h2 span{
+  color: var(--grey-color);
+}
+
+.carousel .carousel_description .carousel_slogan p{
+  font-size: 25px;
+  color: var(--body-color);
+  width: 700px;
 }
