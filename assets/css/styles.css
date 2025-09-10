@@ -690,3 +690,71 @@ img {
   top: 30px;
   left: 15px;
 }
+
+.footer .switch_solar h1{
+  color: var(--body-color);
+  font-size: 40px;
+}
+
+.footer .switch_solar{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 700px;
+}
+
+.footer .switch_solar p{
+  font-size: 30px;
+  color: var(--body-color);
+}
+
+.solar_button{
+    background-color: var(--body-color);
+    color: var(--black-color);
+    border-radius: 30px;
+    padding: 24px;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
+.solar_play{
+    background-color: rgb(95, 93, 93);
+    color: var(--body-color);
+    padding: 24px;
+    margin: 0 0 0 10px;
+    border-radius: 30px;
+}
+
+.footer .switch_solar h1 span{
+  color: var(--text-color);
+}
+
+.solsar_copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 20px 0 20px;
+}
+
+.solsar_copyright .nav__menu{
+  width: 500px;
+}
+
+.solsar_copyright .nav__menu .nav__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ .solsar_copyright .nav__menu .nav__list .nav__link{
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.solsar_copyright .nav .nav__menu .nav__list .active{
+    color: var(--black-color);
+    font-weight: bolder;
+}
