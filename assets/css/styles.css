@@ -553,6 +553,7 @@ img {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .product__section .explore_product h4{
@@ -590,9 +591,11 @@ img {
 }
 
 .card_images .card_image img{
-  object-fit: cover;
+  object-fit: fill;
   object-position: center;
   border-radius: 20px;
+  width: 100%;
+  height: 367px;
 }
 
 .card_images .card_image h2{
@@ -601,9 +604,15 @@ img {
 
 .card_images .card_image p{
   font-size: 30px;
-  width: 400px;
+  width: 420px;
 }
 
 .card_images .card_image p span{
   color: var(--text-color);
+}
+
+.card_images{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
