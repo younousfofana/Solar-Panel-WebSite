@@ -411,6 +411,7 @@ img {
   justify-content: space-between;
   align-items: stretch; 
   margin-top: 70px;
+  margin-bottom: 50px;
   flex-wrap: wrap;
 }
 
@@ -546,4 +547,63 @@ img {
   font-size: 25px;
   color: var(--body-color);
   width: 700px;
+}
+
+.product__section .explore_product{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.product__section .explore_product h4{
+  font-size: 22px;
+}
+
+.explore_product .explore_product_slogan{
+  width: 720px;
+}
+
+.explore_product .explore_product_slogan h1{
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.explore_product .explore_product_slogan h1 span{
+  color: var(--text-color);
+}
+
+.explore_product .explore_product_slogan a{
+  background-color: grey;
+  border-radius: 40px;
+  padding: 20px;
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+.card_images .card_image{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 550px;
+  height: 580px;
+}
+
+.card_images .card_image img{
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.card_images .card_image h2{
+  color: var(--text-color);
+}
+
+.card_images .card_image p{
+  font-size: 30px;
+  width: 400px;
+}
+
+.card_images .card_image p span{
+  color: var(--text-color);
 }
