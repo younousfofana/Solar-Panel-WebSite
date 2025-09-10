@@ -616,3 +616,77 @@ img {
   align-items: center;
   justify-content: space-around;
 }
+
+.product__section{
+  margin-bottom: 40px;
+}
+
+.footer{
+  background-color: var(--black-color);
+  border-radius: 40px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  height: 58%;
+  padding: 40px;
+  /* opacity: 0.9; */
+}
+
+.footer .address{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.footer .address .footer_img{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer .address .footer_img div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .address .footer_img img{
+  width: 75px;
+  color: var(--body-color);
+}
+
+.footer .address .footer_img span{
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--body-color);
+}
+
+.footer .address p{
+  font-size: 20px;
+  color: var(--body-color);
+  width: 370px;
+}
+
+.footer .address .solar_social{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer .address .solar_social div{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(95, 93, 93);
+  border-radius: 30px;
+}
+
+.footer .address .solar_social div i{
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
