@@ -14,6 +14,7 @@
     --shadow:0 10px 30px rgba(0,0,0,.35);
     --radius-outer:22px;
     --radius-inner:14px;
+    --header-height: 80px;
 }
 
 /*=============== BASE ===============*/
@@ -57,9 +58,10 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: var(--header-height);
   color:#1b1b1c;
   margin-top:16px;
+  background:var(--white);
 }
 
 .brand{
@@ -117,6 +119,43 @@ body{
   font-size: 1.1rem;
   padding:12px 18px;
 }
+
+/*=============== HERO ===============*/
+
+.hero{
+  position: relative;
+  margin: 18px 24px 60px;
+  max-width: none;
+  min-height: calc(100vh - 80px - 18px - 60px);
+}
+
+.hero-media{
+  position: relative;
+  border-radius:var(--radius-outer);
+  overflow:hidden;
+  height: 88%;
+}
+
+.hero-img{
+  display:block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius:var(--radius-outer)
+}
+
+.hero-overlay{
+  position: absolute;
+  inset: 0;
+  background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,.35))
+}
+
+.hero-content{
+  position: absolute;
+  inset: 0;
+}
+
+
 
 
 
