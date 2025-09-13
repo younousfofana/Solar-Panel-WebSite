@@ -262,8 +262,8 @@ body{
 
 /*=============== ABOUT ===============*/
 .about-section{
-  color:#1b1b1c;
-  padding:30px 0;
+  color: #1b1b1c;
+  padding: 30px 0;
 }
 
 .about-content{
@@ -360,8 +360,98 @@ body{
   font-size:16px;
 }
 
+/*=============== POPULAR PRODUCT ===============*/
+.product-section{
+  padding: 30px 0;
+}
+
+.product-content{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  gap:40px;
+  min-height:600px;
+}
+
+.popular-productCard{
+  background:#f8f8f8;
+  flex: 0 0 auto;
+  border-radius: 20px;
+  padding: 32px;
+  display: flex;
+  flex-direction:column;
+  max-width: 50%;
+  justify-content: space-between;
+}
+
+.popular-productCard .section-label{
+  font-size: 23px;
+}
+
+.popular-productCard .product-title{
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.product-description{
+  font-size: 1.3rem;
+  line-height:1.5;
+  color:#666666;
+  /* margin:0 0 24px 0; */
+  flex:1;
+}
+
+.specifications{
+  margin-bottom:24px;
+  padding-top:16px;
+  border-top:1px solid #f0f0f0;
+}
+
+.spec-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:8px 0;
+  font-size:1.3rem;
+}
+
+.spec-label{
+  font-weight:600;
+  color:#1b1b1c;
+}
+
+.spec-value{
+  color:#666666;
+  font-weight:500;
+}
+
+.product-actions{
+  display:flex;
+  gap:12px;
+  margin-top:auto;
+}
+
+.product-btn{
+  padding: 12px 20px;
+  font-size: 13px;
+  border-radius: 8px;
+}
 
 
+
+
+.product-image{
+  flex:1 1 auto;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.product-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
 
 
 
